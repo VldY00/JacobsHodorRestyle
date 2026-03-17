@@ -237,9 +237,9 @@ end
 function HodorRestyle.InitializeSettings()
     local panelData = {
         type = "panel",
-        name = "HodorRestyle",
-        displayName = "HodorRestyle",
-        author = "Hyperioxes",
+        name = "JacobsHodorRestyle",
+        displayName = "JacobsHodorRestyle",
+        author = "@iJacobs sources by Hyperioxes",
         version = HR.version,
         registerForRefresh = true,
         registerForDefaults = false,

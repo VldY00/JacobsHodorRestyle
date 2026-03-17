@@ -1,4 +1,4 @@
 HodorRestyle = {
-    name = 'HodorRestyle',
-    version = '1.1',
+    name = 'JacobsHodorRestyle',
+    version = '2026-03-17',
 }

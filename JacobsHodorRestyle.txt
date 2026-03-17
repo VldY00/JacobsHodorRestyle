@@ -1,10 +1,10 @@
-## APIVersion: 101036
+## APIVersion: 101046
 ## Title: JacobsHodorRestyle
 ## Version: 2026-03-17
 ## Author: @iJAcoBS source code by Hyperioxes
 ## Description: Changes appearance of Hodor dps list
 ## SavedVariables: HodorRestyleSV
-## DependsOn: LibAddonMenu-2.0 LibHyper HodorReflexes
+## DependsOn: LibAddonMenu-2.0 LibHyper HodorReflexes LibGroupCombatStats
 ## OptionalDependsOn: LibCustomNames LibCustomIcons
 
 ; This Add-on is not created by, affiliated with or sponsored by ZeniMax Media Inc. or its affiliates. 
