@@ -20,7 +20,7 @@ jobs:
 
       - name: Create zip
         run: |
-          zip -r JacobsHodorRestyle.zip JacobsHodorRestyle
+          zip -r JacobsHodorRestyle.zip
 
       - name: Create GitHub Release and upload zip
         uses: softprops/action-gh-release@v2
