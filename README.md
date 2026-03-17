@@ -1,5 +1,5 @@
 
-# HodorRestyle
+# JacobsHodorRestyle
 
 This is an addon that changes appearance of Hodor Reflexes addon.
 
