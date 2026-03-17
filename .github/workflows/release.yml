@@ -1,0 +1,30 @@
+name: Build and Release Addon
+
+on:
+  push:
+    tags:
+      - "v*"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v5
+
+      - name: Create addon folder
+        run: |
+          mkdir JacobsHodorRestyle
+          cp -r Variables Settings *.lua *.txt JacobsHodorRestyle/
+
+      - name: Create zip
+        run: |
+          zip -r JacobsHodorRestyle.zip JacobsHodorRestyle
+
+      - name: Create GitHub Release and upload zip
+        uses: softprops/action-gh-release@v2
+        with:
+          files: JacobsHodorRestyle.zip
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
