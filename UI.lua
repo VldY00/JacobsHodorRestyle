@@ -123,12 +123,6 @@ function HR.InitializeUI()
     HodorRestyleContainer:SetAnchor(TOPLEFT, GuiRoot, TOPLEFT, HR.savedVariables.xPosition, HR.savedVariables.yPosition)
     SM:GetScene("hud"):RegisterCallback("StateChange", onSceneChange)
     SM:GetScene("hudui"):RegisterCallback("StateChange", onSceneChange)
-    HodorRestyleContainer:SetHandler("OnMoveStop", function(control)
-        HR.savedVariables.xPosition = HodorRestyleContainer:GetLeft()
-        HR.savedVariables.yPosition  = HodorRestyleContainer:GetTop()
-        HodorRestyleXSlider:UpdateValue()
-        HodorRestyleYSlider:UpdateValue()
-    end)
 end
 
 function HR.registerChangingVisibilityOnCombatChange()
