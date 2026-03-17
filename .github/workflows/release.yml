@@ -11,7 +11,7 @@ jobs:
 
     steps:
       - name: Checkout repo
-        uses: actions/checkout@v5
+        uses: actions/checkout@v4
 
       - name: Create addon folder
         run: |
@@ -20,10 +20,10 @@ jobs:
 
       - name: Create zip
         run: |
-          zip -r JacobsHodorRestyle.zip
+          zip -r JacobsHodorRestyle.zip JacobsHodorRestyle
 
-      - name: Create GitHub Release and upload zip
-        uses: softprops/action-gh-release@v2
+      - name: Upload asset to existing release
+        uses: softprops/action-gh-release@v1
         with:
           files: JacobsHodorRestyle.zip
         env:
