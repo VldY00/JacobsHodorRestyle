@@ -1,0 +1,21 @@
+## APIVersion: 101036
+## Title: JacobsHodorRestyle
+## Version: 2026-03-17
+## Author: @iJAcoBS source code by Hyperioxes
+## Description: Changes appearance of Hodor dps list
+## SavedVariables: HodorRestyleSV
+## DependsOn: LibAddonMenu-2.0 LibHyper HodorReflexes
+## OptionalDependsOn: LibCustomNames LibCustomIcons
+
+; This Add-on is not created by, affiliated with or sponsored by ZeniMax Media Inc. or its affiliates. 
+; The Elder Scrolls  and related logos are registered trademarks or trademarks of ZeniMax Media Inc. in the United States and/or other countries. 
+; All rights reserved
+;
+; You can read the full terms at https://account.elderscrollsonline.com/add-on-terms
+
+Variables/Globals.lua
+Variables/SavedVariables.lua
+Settings/Settings.lua
+Main.lua
+UI.lua
+Update.lua
